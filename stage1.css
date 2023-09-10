@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: black;
+    color: white;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img[data-testid="slackDisplayImage"]{
+    width: 200px;
+    border-radius: 10%;
+    border: 1px solid rgba(225, 225, 225, .1);
+    margin: 10px;
+}
+h2[data-testid="slackUsername"]{
+    font-size: 26px;
+}
+a[data-testid="githubURL"]{
+    color: rgba(225, 225, 225, .8);
+    transition: color ease 0.3s;
+}
+a[data-testid="githubURL"]:hover{
+    color: rgba(225, 225, 225, 1);
+}
+div[data-testid="currentUTCTime"] {
+    font-family: monospace; 
+    font-size: 19px;
+    padding: 5px; 
+}
+div[data-testid="currentDayOfTheWeek"]{
+    margin: 7px 0px 10px 0px;
+}

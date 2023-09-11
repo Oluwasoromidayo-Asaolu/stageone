@@ -31,9 +31,6 @@ a[data-testid="githubURL"]{
     text-decoration: none;
     border-radius: 3px;
 }
-a[data-testid="githubURL"]:hover{
-    background-color: rgba(225, 225, 225, .8);
-}
 div[data-testid="currentUTCTime"] {
     font-family: monospace; 
     font-size: 19px;

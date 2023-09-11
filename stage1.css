@@ -23,13 +23,15 @@ h2[data-testid="slackUsername"]{
     font-size: 26px;
 }
 a[data-testid="githubURL"]{
-    color: rgba(225, 225, 225, .8);
-    background-color: rgba(0, 0, 0, .8);
+    color: rgba(0, 0, 0, .8);
+    background-color: rgba(225, 225, 225, .8);
+    padding: 5px;
     transition: color ease 0.3s;
     text-align: center;
+    text-decoration: none;
 }
 a[data-testid="githubURL"]:hover{
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(225, 225, 225, 1);
 }
 div[data-testid="currentUTCTime"] {
     font-family: monospace; 

@@ -24,7 +24,7 @@ h2[data-testid="slackUsername"]{
 }
 a[data-testid="githubURL"]{
     color: black;
-    background-color: rgba(225, 225, 225 .8);
+    background-color: white;
     padding: 8px;
     transition: color ease 0.3s;
     text-align: center;
@@ -32,7 +32,7 @@ a[data-testid="githubURL"]{
     border-radius: 3px;
 }
 a[data-testid="githubURL"]:hover{
-    background-color: rgb(225, 225, 225);
+    background-color: rgba(225, 225, 225, .8);
 }
 div[data-testid="currentUTCTime"] {
     font-family: monospace; 
